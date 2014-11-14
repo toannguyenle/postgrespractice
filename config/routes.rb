@@ -1,6 +1,6 @@
 Postgresspractice::Application.routes.draw do
   root 'application#index'
-  
+  get '/privacy' => 'application#privacy', as: :privacy_path
 
   resources :streets
 
