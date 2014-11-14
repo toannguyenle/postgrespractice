@@ -1,5 +1,5 @@
 Postgresspractice::Application.routes.draw do
-root 'streets#index'
+root 'application#index'
 
   resources :streets
 
